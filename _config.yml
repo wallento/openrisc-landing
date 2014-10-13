@@ -9,13 +9,13 @@ highlighter: pygments
 # so be sure to set them if your theme uses them.
 #
 title : OpenRISC
-tagline: Site Tagline
+tagline:
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : OpenRISC community
+  email : 
+  github : openrisc
+  twitter : 
+  feedburner : 
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
