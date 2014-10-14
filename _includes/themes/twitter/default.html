@@ -29,9 +29,9 @@
     <div class="topbar">
       <div class="fill">
         <div class="container">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <a class="brand" href="{{ HOME_PATH }}"><img src="{{ ASSET_PATH }}/logo_inv.png" height="18px"></a>
           <ul class="nav">
-            {% assign pages_list = site.pages %}
+            {% assign pages_list = site.pages | sort:"weight" %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
           </ul>
